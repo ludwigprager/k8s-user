@@ -1,4 +1,4 @@
-Creates a kubconfig with restricted rights from current kubeconfig
+Creates a kubeconfig with restricted rights from current kubeconfig
 
 ## Usage
 Let's assume your cluster's kubeconfig is *./kubeconfig*.  
