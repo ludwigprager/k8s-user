@@ -18,3 +18,8 @@ You will get a list of error messages like
 ~~~
 Error from server (Forbidden): replicationcontrollers is forbidden: User "andrew" cannot list resource "replicationcontrollers" in API group "" in the namespace "default"
 ~~~
+
+whereas a command like the following will succeed:
+~~~
+KUBECONFIG=./new-kubeconfig kubectl get pod -ndevelopment
+~~~
